@@ -1,0 +1,372 @@
+/***** 
+* @author: Nilay Chandra Barman (https://github.com/Nilaycb)
+* Copyright (c) 2020, All rights reserved.
+* Copyrights licensed under the MIT License.
+*******/
+
+
+
+
+/* Global elements that may behave differently if used along with other CSS frameworks */
+
+html {
+    scroll-behavior: smooth;
+    font-size: 100%;
+}
+
+body {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;
+    font-size: 1.15rem;
+} 
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;
+}
+
+a {
+    color: #BD5D38;
+    text-decoration: none;
+}
+
+a:hover, a:focus, a:active {
+    color: #824027;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+b i, i b {
+    font-size: 1rem!important;
+}
+
+i {
+    font-family: Georgia, "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 1.05rem;
+}
+
+nav {
+    display: flex;
+    flex-flow: wrap;
+}
+
+nav a {
+    padding: 0.25rem;
+    margin: 0.25rem auto;
+}
+
+section {
+    margin: 2.5rem 0.5rem;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+/* Global ends */
+
+
+/* GitHub Star Button */
+a.nt-button.nt-github-star {
+    color: #24292e;
+    background-color: #fafbfc;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a.nt-button.nt-github-star:hover {
+    background-color: #f3f4f6;
+    transition-duration: .3s;
+}
+
+a.nt-button.nt-github-star:focus {
+    box-shadow: 0 0 0 0.25rem #919d95;
+}
+
+a.nt-button.nt-github-star:active {
+    background-color: #edeff2;
+    transition: none;
+}
+/* GitHub Star Button end */
+
+section .nt-section-title {
+    font-size: 1.55rem;
+}
+
+
+.nt-about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+/* GitHub Star Button */
+.nt-button.nt-github-star {
+    display: inline-block;
+    font-family: Segoe UI, Georgia, "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 1.15rem;
+    color: #24292e;
+    background-color: #fafbfc;
+    padding: 0.25rem 0.5rem;
+    text-align: center;
+    vertical-align: middle;
+    border-width: 0.01rem;
+    border-style: solid;
+    border-color: #b0b0b1;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.05rem 0 #6d7174, inset 0 0.01rem 0 #ffffff;
+    transition: background-color .2s cubic-bezier(.3,0,.5,1);
+}
+
+.nt-button.nt-github-star a {
+    color: #24292e;
+    background-color: #fafbfc;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nt-button.nt-github-star a:hover {
+    background-color: #f3f4f6;
+    transition-duration: .3s;
+}
+
+.nt-button.nt-github-star a:focus {
+    box-shadow: 0 0 0 0.25rem #919d95;
+}
+
+.nt-button.nt-github-star a:active {
+    background-color: #edeff2;
+    transition: none;
+}
+/* GitHub Star Button end */
+
+.nt-cover {
+    display: flex;
+    min-height: 250px;
+    background-image: url("../../assets/img/cover.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    filter: grayscale(50%);
+    transition: .3s ease-in-out;
+    transform: scale(1);
+}
+
+.nt-cover:hover {
+    filter: grayscale(0);
+    transform: scale(0.99);
+}
+
+.nt-cover-text {
+    color: #000;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+}
+
+.nt-cover-text-wrapper {
+    background-color: #8ce8ac;
+    opacity: 70%;
+    border-radius: 0.5rem;
+}
+
+.nt-cover-wrapper {
+    overflow: hidden;
+    background-color: #1abc9c;
+}
+
+.nt-email {
+    font-size: 1.25rem;
+}
+
+.nt-footer {
+    padding: 0.5rem;
+    vertical-align: middle;
+    font-size: 1.05rem;
+}
+
+.nt-footer-icon {
+    color: coral;
+    vertical-align: middle;
+}
+
+.nt-img-fluid {
+    width: 100%;
+    height: auto;
+}
+
+.nt-img-profile {
+    border-radius: 50%;
+    max-width: 200px;
+    background-color: #de8c6c;
+    padding: 5px;
+}
+
+.nt-marker {
+    background-color: #b9d08c;
+    padding: 0rem 0.5rem;
+    vertical-align: middle;
+    border-radius: 0.5rem;
+}
+
+.nt-mr-0 {
+    margin: 0;
+}
+
+.nt-mr-1rem {
+    margin: 1rem;
+}
+
+.nt-minitext {
+    font-size: 0.7rem;
+}
+
+.nt-pd-1rem {
+    padding: 1rem;
+}
+
+.nt-pd-t-1rem {
+    padding-top: 1rem;
+}
+
+.nt-pd-r-1rem {
+    padding-right: 1rem;
+}
+
+.nt-pd-b-1rem {
+    padding-bottom: 1rem;
+}
+
+.nt-pd-l-1rem {
+    padding-left: 1rem;
+}
+
+.nt-profile-container {
+    flex-grow: 1;
+}
+
+.nt-social-icons a {
+    display: inline-block;
+    height: 2.75rem;
+    width: 2.75rem;
+    font-size: 1.5rem;
+    line-height: 2.75rem;
+    background-color: #495057;
+    color: #fff !important;
+    border-radius: 100%;
+    text-align: center;
+    margin-right: 1rem;
+}
+
+.nt-social-icons a:last-child {
+    margin-right: 0;
+}
+
+.nt-social-icons a:hover {
+    background-color: #BD5D38;
+}
+
+.nt-subtitle {
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.nt-table {
+    margin: 1.20rem 0.25rem 0.25rem 0.25rem;
+    width: 100%;
+    text-align: center;
+    border: 0.1rem solid #3fac65;
+    border-collapse: collapse;
+}
+
+.nt-table td {
+    padding: 0.5rem;
+    border-collapse: collapse;
+}
+
+.nt-table tr {
+    border-top: 0.1rem solid #3fac65;
+    border-bottom: 0.15rem solid #3fac65;
+    border-collapse: collapse;
+}
+
+.nt-table tr:first-child th {
+    background-color: #3fac65;
+    color: #f8ffea;
+    padding: 0.25rem;
+}
+
+.nt-text-center {
+    text-align: center;
+}
+
+.nt-text-middle {
+    vertical-align: middle;
+}
+
+.nt-title {
+    font-size: 1.75rem;
+    background-color: #3fac65;
+    border-radius: 3rem 1rem 3rem 1rem;
+    color: #f8ffea;
+}
+
+.nt-title a:link, .nt-title a:visited, .nt-title a:hover, .nt-title a:active {
+    color: #f8ffea;
+    text-decoration: none;
+}
+
+.nt-word-break-all {
+    word-break: break-all;
+}
+
+
+@media (min-width: 768px) {
+    /* Global */
+    body {
+        font-size: 1.2rem;
+    }
+    
+    b i {
+        font-size: 1.05rem;
+    }
+    
+    nav {
+        font-size: 1.25rem;
+    }
+    
+    section {
+        margin: 5rem 0.5rem;
+    }
+    /* Global ends */
+    
+    
+    .nt-about-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: row;
+    }
+    
+    .nt-cover {
+        padding: 1rem;
+    }
+    
+    .nt-cover-text {
+        font-size: 1.45rem;
+    }
+    
+    .nt-pd-m-l-1rem {
+        padding-left: 1rem;
+    }
+}
+
+
+@media (min-width: 992px) {
+    /* Global */
+    body {
+        padding-top: 0;
+    }
+    /* Global ends */
+}
